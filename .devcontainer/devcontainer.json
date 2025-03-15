@@ -1,5 +1,5 @@
 {
-  "name": "Bun Devcontainer Template",
+  "name": "Infinite Neurasthenia",
   "dockerComposeFile": "./compose.yml",
   "service": "app",
   "workspaceFolder": "/home/user/app",
@@ -9,7 +9,8 @@
         "ms-azuretools.vscode-docker",
         "GitHub.copilot",
         "oderwat.indent-rainbow",
-        "biomejs.biome"
+        "biomejs.biome",
+        "formulahendry.auto-rename-tag"
       ]
     }
   }
