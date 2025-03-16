@@ -6,5 +6,5 @@ type Props = {
 };
 
 export function CardBack({ width, height }: Props) {
-	return <Card sx={{ width, height, bgcolor: '#3b3b3f' }}>裏</Card>;
+	return <Card sx={{ width, height, bgcolor: '#3b3b3f' }} />;
 }

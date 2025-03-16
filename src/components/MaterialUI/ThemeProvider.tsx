@@ -1,9 +1,17 @@
 import { CssBaseline } from '@mui/material';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 
-export function ThemeProvider() {
+type Props = {
+	children: React.ReactNode;
+};
+
+export function ThemeProvider({ children }: Props) {
 	return (
 		<>
-			<CssBaseline />
+			<AppRouterCacheProvider>
+				<CssBaseline />
+				{children}
+			</AppRouterCacheProvider>
 		</>
 	);
 }
